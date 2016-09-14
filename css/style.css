@@ -1,0 +1,148 @@
+*{
+    box-sizing:border-box;
+}
+
+@media screen and (max-width: 829px) {
+    hr{
+        margin: 50px;
+        display: block;
+        border-style: inset;
+        width:100%;
+    }
+    .center {
+        text-align: center;
+    }
+    .grid {
+        margin: 0 auto;
+        max-width: 829px;
+        width: 100%;
+    }
+
+    .row {
+        width: 100%;
+        margin-bottom: 0px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .title-img {
+        width: 50%;
+        display: initial;
+    }
+    .small-img {
+        width: 50%;
+        display: initial;
+        vertical-align: middle;
+    }
+    .url-img {
+        margin: 10px;
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width: 830px) {
+    body {
+        background-color: white;
+    }
+    hr{
+        margin: 0px;
+        display: block;
+        border-style: inset;
+        width:100%;
+    }
+    .center {
+        text-align: center;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .small-img {
+        width: 33%;
+        height: 100px;
+        height: ;
+        display: initial;
+        vertical-align: middle;
+    }
+    .grid {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+    .row {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-12 {
+        width: 83.33%;
+    }
+
+}
+
+body{
+    font-weight: normal;
+    font-family: 'Lato',sans-serif;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: 2em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    float:right;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+    width:100%;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-size: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    float:right;
+    flex-wrap:wrap;
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+}
+.logo-img {
+    width: 33%;
+}
+
+.banner_img {
+    margin:10;
+}
