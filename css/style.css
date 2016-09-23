@@ -22,7 +22,7 @@
 
     .row {
         width: 100%;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         display: block;
         flex-wrap: wrap;
     }
@@ -38,14 +38,16 @@
 
     .small-img {
         width: 50%;
-        display: initial;
+        display: block;
         vertical-align: middle;
+        max-width: 100%;
+        height: auto;
     }
 
     .url-img {
-        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
         width: 100%;
-
     }
 }
 
@@ -55,8 +57,8 @@
         background-color: white;
     }
 
-    hr{
-        margin: 0px;
+    hr {
+        margin: 0;
         display: block;
         border-style: inset;
         width: 100%;
@@ -125,7 +127,7 @@
 
 body {
     font-weight: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 h1 {
@@ -133,8 +135,8 @@ h1 {
     margin: 0;
     display: block;
     font-size: 2em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
     float: right;
 }
 
@@ -149,8 +151,8 @@ h3 {
     margin: 0;
     display: block;
     font-size: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
     float: right;
     flex-wrap: wrap;
 }
@@ -165,5 +167,8 @@ h3 {
 }
 
 .banner_img {
-    margin: 10;
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
