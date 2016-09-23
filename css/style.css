@@ -4,8 +4,7 @@
 
 @media screen and (max-width: 829px) {
 
-    hr{
-        margin: 50px;
+    hr {
         display: block;
         border-style: inset;
         width: 100%;
